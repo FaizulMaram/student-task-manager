@@ -124,3 +124,23 @@ button:hover {
     width: 100%;
   }
 }
+
+/* Search bar */
+#searchBar {
+  max-width: 520px;
+  margin: 0 auto 16px auto;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #c9d4e3;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+#searchInput:focus {
+  outline: none;
+  border-color: #1f3c88;
+  box-shadow: 0 0 0 3px rgba(31, 60, 136, 0.15);
+}
