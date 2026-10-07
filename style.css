@@ -165,3 +165,19 @@ button:hover {
   line-height: 1;
   pointer-events: none;
 }
+
+/* Complete / Undo button on task cards */
+.complete-btn {
+  margin-top: 10px;
+  padding: 6px 14px;
+  font-size: 13px;
+  background: #27ae60;
+}
+
+.complete-btn:hover {
+  background: #1e8a4c;
+}
+
+.task-card.completed .complete-btn {
+  background: #8a99aa;
+}
