@@ -5,5 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Student Task Manager</title>
   </head>
-  <body></body>
+
+  <body>
+    <h1>Student Task Manager</h1>
+
+    <form id="taskForm">
+      <div>
+        <label for="taskTitle">Task Title</label>
+        <input
+          type="text"
+          id="taskTitle"
+          placeholder="Enter task title"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="taskDescription">Task Description</label>
+        <textarea
+          id="taskDescription"
+          placeholder="Enter task description"
+          required
+        ></textarea>
+      </div>
+
+      <button type="submit">Add Task</button>
+    </form>
+  </body>
 </html>
