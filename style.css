@@ -124,3 +124,44 @@ button:hover {
     width: 100%;
   }
 }
+
+/* Task Search */
+.search-container {
+  max-width: 520px;
+  margin: 0 auto 20px;
+  position: relative;
+}
+
+#taskSearch {
+  width: 100%;
+  padding: 13px 16px 13px 44px;
+  border: 1px solid #c9d4e3;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #2c3e50;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(31, 60, 136, 0.08);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#taskSearch:focus {
+  outline: none;
+  border-color: #1f3c88;
+  box-shadow: 0 0 0 3px rgba(31, 60, 136, 0.15);
+}
+
+#taskSearch::placeholder {
+  color: #8a99aa;
+}
+
+.search-container::before {
+  content: "⌕";
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-52%);
+  color: #1f3c88;
+  font-size: 24px;
+  line-height: 1;
+  pointer-events: none;
+}
